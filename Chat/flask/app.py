@@ -8,7 +8,7 @@ import requests
 
 app = Flask(__name__)
 CORS(app)
-openai.api_key = "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"
+openai.api_key = "YOUR_API"
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:''@localhost/login'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
